@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 
 const RightFun = () => {
     const [right,setRight] = useState(false)
@@ -10,6 +10,9 @@ const RightFun = () => {
         setMenu(false)
       const searchData = document.getElementById('rightData')
     const sData = document.getElementById('rData')
+    const Noti = document.getElementById('noti')
+
+    Noti.classList.add('bg-[#212121]')
 
     
 
@@ -23,7 +26,10 @@ const RightFun = () => {
     } else {
       const searchData = document.getElementById('rightData')
       const sData = document.getElementById('rData')
-  
+        
+      const Noti = document.getElementById('noti')
+
+    Noti.classList.remove('bg-[#212121]')
     
   
       sData.classList.add('opacity-0')
@@ -35,11 +41,16 @@ const RightFun = () => {
       searchData.classList.remove('p-1')
     }
   },[right])
+
   useEffect(()=>{
     if (menu == true) {
         setRight(false)
       const searchData = document.getElementById('menuData')
     const sData = document.getElementById('mData')
+    const Menu = document.getElementById('userMenu')
+
+    Menu.classList.add('bg-[#212121]')
+
 
     
 
@@ -53,7 +64,9 @@ const RightFun = () => {
     } else {
         const searchData = document.getElementById('menuData')
         const sData = document.getElementById('mData')
-  
+        const Menu = document.getElementById('userMenu')
+    
+        Menu.classList.remove('bg-[#212121]')
     
   
       sData.classList.add('opacity-0')

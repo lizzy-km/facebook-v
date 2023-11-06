@@ -1,4 +1,3 @@
-import React from 'react'
 import { closeSearch, openSearch } from './searchFun'
 import { NavLink } from 'react-router-dom'
 

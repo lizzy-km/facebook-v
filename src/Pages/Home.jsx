@@ -1,4 +1,3 @@
-import React from "react";
 import UserPostCard from "../Components/UserPostCard";
 
 const Home = () => {
@@ -74,7 +73,7 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-blur rounded-xl w-[30%] h-full ">
-          
+
         </div>
       </div>
     );
