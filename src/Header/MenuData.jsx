@@ -24,7 +24,7 @@ const MenuData = () => {
          </div>
             <p>Setting</p>
         </div>
-        <div className=" text-[#df4040] flex w-full justify-start gap-3 items-center px-3 py-2 bg-[#191919b4] cursor-pointer transition-all hover:bg-[#121212e5] rounded-xl " >
+        <div className=" text-[#ef4949] flex w-full justify-start gap-3 items-center px-3 py-2 bg-[#191919b4] cursor-pointer transition-all hover:bg-[#121212e5] rounded-xl " >
          <div className=" navBar-2 bg-[#151414] p-[6px] rounded-full " >
          <img className=" p-[3px] w-[24px]  " src="/src/assets/Logout.svg" alt="" />
 
